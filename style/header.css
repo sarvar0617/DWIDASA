@@ -1,0 +1,27 @@
+header {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.head .nav_links {
+  display: flex;
+  gap: 25px;
+}
+.head .nav_links .link {
+  color: rgb(68, 68, 68);
+}
+
+.head .head_actions {
+  display: flex;
+  gap: 15px;
+}
+.head .head_actions .head_action {
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+}
